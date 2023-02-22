@@ -523,6 +523,10 @@ video {
   margin-left: auto;
 }
 
+.inline{
+  display: inline;
+}
+
 .flex{
   display: flex;
 }
@@ -633,6 +637,10 @@ video {
 
 .w-2\/12{
   width: 16.666667%;
+}
+
+.w-2\/5{
+  width: 40%;
 }
 
 .max-w-full{
@@ -768,6 +776,16 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pt-14{
   padding-top: 3.5rem;
 }
@@ -834,6 +852,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:block{
+    display: block;
+  }
+
   .md\:flex{
     display: flex;
   }
