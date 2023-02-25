@@ -974,6 +974,10 @@ video {
   text-align: start;
 }
 
+.text-end{
+  text-align: end;
+}
+
 .font-main{
   font-family: Epilogue, sans-serif;
 }
@@ -993,8 +997,26 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.leading-8{
+  line-height: 2rem;
+}
+
+.leading-6{
+  line-height: 1.5rem;
 }
 
 .text-neutral-almost_white{
