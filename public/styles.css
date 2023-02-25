@@ -1176,6 +1176,10 @@ video {
     width: 100vw;
   }
 
+  .md\:w-8\/12{
+    width: 66.666667%;
+  }
+
   .md\:auto-cols-max{
     grid-auto-columns: max-content;
   }
@@ -1222,6 +1226,14 @@ video {
 
   .md\:gap-20{
     gap: 5rem;
+  }
+
+  .md\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .md\:gap-24{
+    gap: 6rem;
   }
 
   .md\:p-5{
@@ -1445,6 +1457,10 @@ video {
 
   .lg\:w-4\/5{
     width: 80%;
+  }
+
+  .lg\:w-10\/12{
+    width: 83.333333%;
   }
 
   .lg\:object-contain{
